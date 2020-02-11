@@ -2,12 +2,8 @@
 class CashRegister
   attr_accessor(:total)
   
-  def self.initialize()
+  def initialize()
     @total = 0
-  end
-  
-  def total
-    return @total
   end
   
   def add_item(title, price, quantity = 1)
